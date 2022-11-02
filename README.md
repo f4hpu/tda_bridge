@@ -1,6 +1,6 @@
 # tda_bridge
 
-This repository contains a [KiCAD 6.0.9](https://www.kicad.org/) project for an electronic board (hardware).
+This repository contains a [KiCAD 6.0.9](https://www.kicad.org/) project for an electronics board (hardware).
 
 This electonics board is a bridgeable audio stereo amplifier, based on a pair of TDA7293 chips.
 
@@ -23,9 +23,9 @@ Of course you need to git clone the repo and install KiCAD 6 to open the project
 In case you wish to use a single sided PCB, authors guess that's possible if you put straps for the few missing connections on top. They hope you won't have any noise issue for the missing ground plane.
 
 KiCAD offers the possibility to print a BOM to buy everything you need for the car by itself. But of course you may want to add some other stuffs, like the power supply transformer, an power switch, a box, a big heatsink for the TDA7293's and the Diode's. You may find some inspiration in 
-[Fangorn's blog](http://fangorn.over-blog.org/article-23233481.html).
+[Fangorn's blog - article 1](http://fangorn.over-blog.org/article-22214740.html) or [Fangorn's blog - article 2](http://fangorn.over-blog.org/article-23233481.html).
 
-### Continuous voltage protection
+### Continuous voltage protection
 
 A continuous voltage may arm the speaker. For this reason, authors included a circuit continuously watching both left and right outputs. In case of any failure both left and right speakers are disconnected.
 
@@ -33,7 +33,7 @@ The system is a custom design by F4HPU and F4GUX, which behavior was simulated u
 
 A Jumper was included to select between using this watchdog, or bypassing it.
 
-### Bridge mode
+### Bridge mode
 
 Bridge mode is a special mode where the two lines of the stereo amplifier are used simultaneously to drive a single loudspeaker. Simply speaking, for an input signal V_in, left output is (A.V_in), while right output is (-A.V_in), therefore output between left and right is four times higher (as voltage is twice higher).
 
@@ -44,8 +44,10 @@ Buf if you foresee to use this amplifier as a _high power mono amplifier_ you ne
 
 ## Licencing and Property
 
-The design was made by F4HPU and F4GUX, who are (French Amateur Radio Operators.)[https://www.r-e-f.org/]
+The design was made by F4HPU and F4GUX, who are [French Amateur Radio Operators.](https://www.r-e-f.org/)
 
-Both Schematics and PCB are given under [CERN-OpenHardwareLicence-P version 2](https://cern-ohl.web.cern.ch/home). 
+Both Schematics and PCB are licensed under [CERN-OHL-P version 2](https://cern-ohl.web.cern.ch/home). 
 
 IMPORTANT NOTE: CURRENT DESIGN HAS NEVER BEEN TESTED FOR REAL YET, SO BE CAREFULL, USE AT YOUR OWN RISKS.
+
+For this reason, you are highly encouraged to check each functionnality step by step.
