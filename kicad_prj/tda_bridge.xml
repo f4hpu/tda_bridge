@@ -1,0 +1,2559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\clair\Documents\dev\git\tda_bridge\kicad_prj\tda_bridge.kicad_sch</source>
+    <date>11/2/2022 9:29:22 PM</date>
+    <tool>Eeschema (6.0.8)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>TDA7293 Bridgeable Audio Amplifier</title>
+        <company>F4HPU - F4GUX</company>
+        <rev>v0.0</rev>
+        <date>2022-11-01</date>
+        <source>tda_bridge.kicad_sch</source>
+        <comment number="1" value="Licence CERN-OHL-P v2"/>
+        <comment number="2" value="Design not validated - use at your own risks"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1nF</value>
+      <footprint>tda_bridge:C5B2.5</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C5{slash}2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f74a37af-509e-434b-ab40-fd6905d05587</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1nF</value>
+      <footprint>tda_bridge:C5B2.5</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C5{slash}2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a43524c-e131-4037-8eca-482fd85accc8</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>2.2uF MKT</value>
+      <footprint>tda_bridge:C075-063X106</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C-EU075-063X106" description=""/>
+      <property name="Value" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f67e7e26-e4ea-4d93-8b6e-f8b6ab37e6de</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1nf</value>
+      <footprint>tda_bridge:C050-030X075</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C-EU050-030X075" description=""/>
+      <property name="Value" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47bf03c7-4975-404e-8ee8-afaeae6a3297</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1nF</value>
+      <footprint>tda_bridge:C5B2.5</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C5{slash}2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71ef55dd-f1fb-43b2-8691-4c0d2e663df1</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1nF</value>
+      <footprint>tda_bridge:C5B2.5</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C5{slash}2.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93fd4111-af7f-4186-9c74-fad0d69d5320</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>2200uF 40V</value>
+      <footprint>tda_bridge:E7,5-18</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE7.5-18" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd19feca-db4d-464d-88f4-444d091e6c0d</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1OOnF 63VMKT</value>
+      <footprint>tda_bridge:C050-025X075</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C-EU050-025X075" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad61f40a-dcdf-478a-b99a-f01d54d5ae21</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>2200uF 40V</value>
+      <footprint>tda_bridge:E7,5-18</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE7.5-18" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a11ead91-0ec6-42ed-95e6-84ca89fc0653</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1OOnF 63VMKT</value>
+      <footprint>tda_bridge:C050-025X075</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C-EU050-025X075" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9f96d62-974e-49b7-9776-c3e7e95f3d46</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>22000uF</value>
+      <footprint>tda_bridge:EB35D</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE10-35" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49cdb12e-3740-4115-9ebf-1e764338a965</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>22000uF</value>
+      <footprint>tda_bridge:EB35D</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE10-35" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f798c150-1efc-49c7-820f-d3fafb7a1e84</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>tda_bridge:C22.5B6</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C22{slash}6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69cc09ad-1994-47c3-b976-06989729607e</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>tda_bridge:C22.5B6</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C22{slash}6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c15f83bc-d654-4237-baa8-fe77dc35af15</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1OOnF 63VMKT</value>
+      <footprint>tda_bridge:C050-025X075</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C-EU050-025X075" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08c8eeb9-7f69-422e-bfc4-52fea2090d37</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10000uF 40V</value>
+      <footprint>tda_bridge:EB30D</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE10-30" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f6a56df-04d8-4114-a06b-f47ab7b73ade</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10000uF 40V</value>
+      <footprint>tda_bridge:EB30D</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE10-30" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cd7ad32-084d-4b66-9010-d6f6462a38c0</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>1OOnF 63VMKT</value>
+      <footprint>tda_bridge:C050-025X075</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C-EU050-025X075" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c67eeb8-574a-4b11-809a-fc47590a4cc8</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100uF 63V Elna</value>
+      <footprint>tda_bridge:E5-13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE5-13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a60cbb2a-abe7-4322-ad91-a1ac4654eb07</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>22uF 35V</value>
+      <footprint>tda_bridge:E2-5</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE2-5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1db4d13b-df38-4439-8730-f7f5520db4c5</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>22uF 35V</value>
+      <footprint>tda_bridge:E2-5</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE2-5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88b20927-22aa-4bc7-af07-839e8dc57b87</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>2.2uF MKT</value>
+      <footprint>tda_bridge:C075-063X106</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C-EU075-063X106" description=""/>
+      <property name="Value" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e562f6c-3c2d-41ab-aabd-b0025cbe95bd</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>1nf</value>
+      <footprint>tda_bridge:C050-030X075</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C-EU050-030X075" description=""/>
+      <property name="Value" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a32f3436-b377-4a88-ae1b-48e981e1b7d6</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>1OOnF 63VMKT</value>
+      <footprint>tda_bridge:C050-025X075</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C-EU050-025X075" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6a0e16b-3164-4f38-9033-71f5fb490f6c</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>2200uF 40V</value>
+      <footprint>tda_bridge:E7,5-18</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE7.5-18" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b64c37e0-0b46-4818-a893-2a758209f8dd</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>1OOnF 63VMKT</value>
+      <footprint>tda_bridge:C050-025X075</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C-EU050-025X075" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db7fd799-187b-4020-90eb-4f36eeb443f8</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>2200uF 40V</value>
+      <footprint>tda_bridge:E7,5-18</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE7.5-18" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec5853ff-ce70-40d5-92c5-e3a8c4ab7ba0</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>1OOnF 63VMKT</value>
+      <footprint>tda_bridge:C050-025X075</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C-EU050-025X075" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b220d3b-14db-4dc6-8b2b-b2d6c0f4eb13</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>10000uF 40V</value>
+      <footprint>tda_bridge:EB30D</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE10-30" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e15839da-3068-462d-8c43-15122fb5c35f</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>10000uF 40V</value>
+      <footprint>tda_bridge:EB30D</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE10-30" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0df10f9-aaee-44f7-94e8-aeb9d74ff7d5</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>1OOnF 63VMKT</value>
+      <footprint>tda_bridge:C050-025X075</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="C-EU050-025X075" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df7b1f25-4ffd-40fb-833d-ba1cf6f638f3</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>100uF 63V Elna</value>
+      <footprint>tda_bridge:E5-13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE5-13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f90a8f5c-6e40-467e-9636-840b13e08559</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>4.7uF 50V</value>
+      <footprint>tda_bridge:E1,8-4</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE1.8-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bdc5e33-169c-4f30-97c5-fc749386ca1a</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>4.7uF 50V</value>
+      <footprint>tda_bridge:E1,8-4</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE1.8-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40358bfb-1856-433d-b84d-652e32baadce</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>4.7uF 50V</value>
+      <footprint>tda_bridge:E1,8-4</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE1.8-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4da136f-6a51-4926-81b2-b83a5de1fb8b</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>4.7uF 50V</value>
+      <footprint>tda_bridge:E1,8-4</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE1.8-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a867d212-2073-442a-b8a9-2c1c64fddeb5</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>4.7uF 50V</value>
+      <footprint>tda_bridge:E1,8-4</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE1.8-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>879a0b6c-49fa-4ed1-8033-e83eb10bf05a</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>4.7uF 50V</value>
+      <footprint>tda_bridge:E1,8-4</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE1.8-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4e05dfd-6a87-40b2-8c28-755d6e76b72f</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>4.7uF 50V</value>
+      <footprint>tda_bridge:E1,8-4</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE1.8-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b181b7e5-8296-4f3b-8a1d-435276f1abf4</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>4.7uF 50V</value>
+      <footprint>tda_bridge:E1,8-4</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE1.8-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96c16b01-0081-4de5-8834-5b3610c9fd07</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>1uF 16V</value>
+      <footprint>tda_bridge:E1,8-4</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE1.8-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77216f5c-3ca9-4029-8b55-3596922df315</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>1uF 16V</value>
+      <footprint>tda_bridge:E1,8-4</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE1.8-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb9bec4a-4358-47f2-9b5f-a05c85f272e5</tstamps>
+    </comp>
+    <comp ref="C43">
+      <value>1uF 16V</value>
+      <footprint>tda_bridge:E1,8-4</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE1.8-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f833a2f5-b687-4a09-a28a-5cbd72eac092</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>1uF 16V</value>
+      <footprint>tda_bridge:E1,8-4</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE1.8-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3348ad60-7c5c-4994-837d-12fa5a7ee698</tstamps>
+    </comp>
+    <comp ref="C45">
+      <value>10uF 25V</value>
+      <footprint>tda_bridge:E1,8-4</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE1.8-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>509e71d4-7bef-4d9d-bd22-2181f1375d50</tstamps>
+    </comp>
+    <comp ref="C47">
+      <value>4.7uF 50V</value>
+      <footprint>tda_bridge:E1,8-4</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE1.8-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ea6af40-27df-4ac1-92b4-05f40aadd9c5</tstamps>
+    </comp>
+    <comp ref="C48">
+      <value>4.7uF 50V</value>
+      <footprint>tda_bridge:E1,8-4</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="CPOL-USE1.8-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3f1503f-cb92-4506-8917-1e91479a00a8</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BYW29</value>
+      <footprint>tda_bridge:DO220S</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="BYW29" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3ba56ae-fd61-4acf-a77e-25f8d2e68afc</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BYW29</value>
+      <footprint>tda_bridge:DO220S</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="BYW29" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d19fb72-31c3-4b43-888c-acccc57aa63a</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>BYW29</value>
+      <footprint>tda_bridge:DO220S</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="BYW29" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d23305a-f8c8-40fc-a915-c9280d5a597c</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>BYW29</value>
+      <footprint>tda_bridge:DO220S</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="BYW29" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e346f43-76c6-44e6-85f3-2b5ac64a8e3b</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>BYW98-200</value>
+      <footprint>tda_bridge:F126-10</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="BYW100" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c77c058b-1b57-46c0-8839-e6085c527873</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>BYW98-200</value>
+      <footprint>tda_bridge:F126-10</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="BYW100" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1615b11-940c-4acc-a7ff-44a587a6298e</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>BZX79-C22</value>
+      <footprint>tda_bridge:DO41Z10</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="BZX85" description=""/>
+      <property name="Value" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d67f31f-05ff-40f9-b17f-339ea617cb95</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>1N4004</value>
+      <footprint>tda_bridge:DO41-10</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="1N4004" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8b6ff9d-2576-449b-9666-ca46a9ab927f</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148</value>
+      <footprint>tda_bridge:DO35-10</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="1N4148DO35-10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8753af4-f1d1-4b5f-aaf8-a98d9fb2f291</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>BYW98-200</value>
+      <footprint>tda_bridge:F126-10</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="BYW100" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcf5238c-46de-4f6a-9464-c75e75baff2f</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>BYW98-200</value>
+      <footprint>tda_bridge:F126-10</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="BYW100" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82d469ac-9660-4fca-bd1a-fa264c32be4f</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>1N4004</value>
+      <footprint>tda_bridge:DO41-10</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="1N4004" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41bf406c-19e0-4235-8e10-f9806b8bdba6</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>BZX85-C12</value>
+      <footprint>tda_bridge:DO41Z10</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="BZX85" description=""/>
+      <property name="Value" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60595236-4026-4cd7-b7b6-b682e2cd529c</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>BZX85-C12</value>
+      <footprint>tda_bridge:DO41Z10</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="BZX85" description=""/>
+      <property name="Value" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d901e7a-04f4-4e55-9b4a-42282cb5870c</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>1N4148DO35-7</value>
+      <footprint>tda_bridge:DO35-7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="1N4148DO35-7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a91b703-5cc4-4318-9109-089ed52af509</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>1N4148DO35-7</value>
+      <footprint>tda_bridge:DO35-7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="1N4148DO35-7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f911cc90-25a4-443e-a2cf-f1ad65ff15ad</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>1N4148DO35-7</value>
+      <footprint>tda_bridge:DO35-7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="1N4148DO35-7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fcdc51ea-22a6-41b6-9f2a-a028a72104f0</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>1N4148DO35-7</value>
+      <footprint>tda_bridge:DO35-7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="1N4148DO35-7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ba83a95-663c-447d-8d41-c0101bda27ce</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MOUNT-PAD-ROUND3.6</value>
+      <footprint>tda_bridge:3,6-PAD</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="MOUNT-PAD-ROUND3.6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee3eea88-a857-4d17-abb6-67e608e45665</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MOUNT-PAD-ROUND3.6</value>
+      <footprint>tda_bridge:3,6-PAD</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="MOUNT-PAD-ROUND3.6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0184a896-22fa-427f-842c-ed9356a0b065</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MOUNT-PAD-ROUND3.6</value>
+      <footprint>tda_bridge:3,6-PAD</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="MOUNT-PAD-ROUND3.6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2253bc57-f276-41d5-9fee-17a44f82c466</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MOUNT-PAD-ROUND3.6</value>
+      <footprint>tda_bridge:3,6-PAD</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="MOUNT-PAD-ROUND3.6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16f77ed3-4763-48c0-b1f2-fcc4236f38e2</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>TDA7293V</value>
+      <footprint>tda_bridge:MULTIWATT15V</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="TDA7293V" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eaf8e402-f5da-4ac7-9571-c9bdf8299be2</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>TDA7293V</value>
+      <footprint>tda_bridge:MULTIWATT15V</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="TDA7293V" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fa46a5e-353d-4973-89c0-18c99dca99ef</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>TL084</value>
+      <footprint>tda_bridge:DIL14</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="TL084P" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fe848e0-5a87-481c-9c13-8c74992b5cee d289f152-81ef-4d53-83fe-4c3e258fc89c de581467-ecd8-407b-8f05-559bc0ea7920 986a35ec-9348-4a74-b413-3f2ea301a55c 4a24afb6-f7e7-4a37-9d27-a4bc6939bbdd</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper</value>
+      <footprint>tda_bridge:JP3Q</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="JP3Q" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>366bdbf1-3d34-493e-9bff-e15022c13d27</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>FINDER-30.22</value>
+      <footprint>tda_bridge:FINDER-30.22</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="FINDER-30.22" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82ed564a-e18a-428a-9950-956c7c12c406 7dc3e20a-05bb-4f4d-a3bd-2cbb49b5c54e 6b1f88b1-9760-4898-b39d-657c86cf1bf0</tstamps>
+    </comp>
+    <comp ref="K3">
+      <value>FINDER-30.22</value>
+      <footprint>tda_bridge:FINDER-30.22</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="FINDER-30.22" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4b59e0d-b838-424f-8d31-38fcdaba4ce8 4528412b-0e9e-49ad-9835-26cc53024273 081c2a31-b5d7-42c1-a0b3-f443407f9947</tstamps>
+    </comp>
+    <comp ref="M30DC0">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2abcf6d-e01a-427b-96a2-0944743141ba</tstamps>
+    </comp>
+    <comp ref="P30DC0">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4d1c216-c4ea-4d11-84c4-186c09d2e4fc</tstamps>
+    </comp>
+    <comp ref="PLEDCLIP1">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdcd91e3-2910-402e-bc83-03eae7237e94</tstamps>
+    </comp>
+    <comp ref="PLEDCLIP2">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3422426-4497-48eb-aae1-62f054ae0c5b</tstamps>
+    </comp>
+    <comp ref="PLEDCLIP3">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad1ea40c-bb3e-4add-9651-da12fe721da3</tstamps>
+    </comp>
+    <comp ref="PLEDCLIP4">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ae8241c-1ad1-4dae-86d7-10154d86bdd0</tstamps>
+    </comp>
+    <comp ref="POUTL1">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>888ec265-029c-4246-bcbb-96475cd423b4</tstamps>
+    </comp>
+    <comp ref="POUTL2">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ecc32417-90be-4e99-b5b0-b5ec59a9b8c2</tstamps>
+    </comp>
+    <comp ref="POUTL3">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b0530c5-3a7d-400c-9309-00b0e7686eca</tstamps>
+    </comp>
+    <comp ref="POUTR1">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72da0c87-c930-43a8-8677-cd19e3e5e558</tstamps>
+    </comp>
+    <comp ref="POUTR2">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42b3ecfd-24c6-4cc9-bee9-8d8396ecb1f9</tstamps>
+    </comp>
+    <comp ref="POUTR3">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d00e6792-e1f7-4eb3-a566-e1cfb4fb17dd</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N2907</value>
+      <footprint>tda_bridge:TO18</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="2N2907" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba1b78e0-4bac-4f44-adad-69b749dc637f</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2N2907</value>
+      <footprint>tda_bridge:TO18</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="2N2907" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c7cc6af-aca2-4bb6-94a3-0ab929488f0c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>0.1</value>
+      <footprint>tda_bridge:0309_10</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0309{slash}10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b777977f-54b9-4093-a480-af0c4f4e1aa1</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>0.1</value>
+      <footprint>tda_bridge:0309_10</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0309{slash}10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a5f74f9-be56-42a2-a012-881aafc8622a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1Meg</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e969396b-8b76-48fe-a1ad-604fd7486428</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e439ff1-91c1-433b-9b48-ba48272bbaf6</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>47k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ad48dcb-d793-4957-b389-5fbec295035d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>0.1</value>
+      <footprint>tda_bridge:0309_10</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0309{slash}10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11a63b18-cc7f-41cf-b8c1-f0544cd26918</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>0.1</value>
+      <footprint>tda_bridge:0309_10</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0309{slash}10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb004503-d697-475d-8fec-e398a758ecf1</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>600</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15ee8d6d-1d63-45f7-9698-ba63531c7d14</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>tda_bridge:0617_22</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0617{slash}22" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05ca95c1-5e2b-45a5-bba1-b7a0895065e6</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4.7, 5W</value>
+      <footprint>tda_bridge:VTA52</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_VTA52" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3b40a44-6926-4979-8b60-19bf8f2945d8</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4.7, 5W</value>
+      <footprint>tda_bridge:VTA52</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_VTA52" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6b0524f-8a97-4a91-9407-d2a495d6f66e</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>4.7, 5W</value>
+      <footprint>tda_bridge:VTA52</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_VTA52" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54c5d5da-0a97-494e-8de2-4252d51751bc</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4.7, 5W</value>
+      <footprint>tda_bridge:VTA52</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_VTA52" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71afb25d-ab61-46db-908e-c668ccba9670</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>4.7, 5W</value>
+      <footprint>tda_bridge:VTA52</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_VTA52" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58209008-f7d7-4167-bbba-d23a1f3b73b2</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>4.7, 5W</value>
+      <footprint>tda_bridge:VTA52</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_VTA52" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>622f17bf-6359-4d00-b60c-5fad338f1cb7</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>0.27 5W</value>
+      <footprint>tda_bridge:0411_15</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0411{slash}15" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28259731-755f-42f0-93c5-b2ae24ec31d7</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>0.27 1W</value>
+      <footprint>tda_bridge:0411_15</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0411{slash}15" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bd77582-9a15-487a-a10d-067b50df2cc0</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e78841f9-4c8d-4e3f-82dd-fb0ebfbadae4</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fafa469-afb8-4886-a3e0-5727a25727f3</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>22k</value>
+      <footprint>tda_bridge:0207_12</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>700f7425-21d4-4473-8f86-daa2f27d3e23</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>33k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edb4cb79-b0ff-4604-b015-d0467cd4356f</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1Meg</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2956ce1c-ccd2-4710-a96d-a18fcd759887</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>100</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d618a430-849b-4b3a-8564-c55558cea8f2</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>47k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c44fd77-2787-40f2-a085-4212eadcab8f</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b89c8cbd-4161-4ef8-9f23-1c684b43d84c</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>220</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c08fe601-fde0-4f12-b9b0-23ada6245a36</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>600</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c195f78-310e-4520-a630-4edeb3ea4050</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>82k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dd11117-c5b9-4a16-aa3d-c6cc8f5cbd19</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>tda_bridge:0617_22</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0617{slash}22" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>169d4ebe-96cd-4d36-b851-cd1b8d6d5ff2</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>6.8k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cd67a7b-0dc1-4bdb-9546-ac53f3396d07</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>82k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c353fbec-2022-4625-a945-b2c0f9352c35</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>220</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64aa57b8-71f4-4f9b-9d03-cb0e2e74aa6e</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>0.27 5W</value>
+      <footprint>tda_bridge:0411_15</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0411{slash}15" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f220954-1ed1-4d63-a7ce-d6bdc8d68979</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>0.27 1W</value>
+      <footprint>tda_bridge:0411_15</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0411{slash}15" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56b2f846-450e-47aa-9285-42ae65170b8a</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>82k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f0bfdcd-f26d-4c69-a6d7-cd7d182697ca</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>6.8k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a145b362-c673-4c6e-8034-05e28bef7d01</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>82k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f7562bd-9e29-4433-8388-c3bc420e5f05</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>220</value>
+      <footprint>tda_bridge:0207_12</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1933edfa-a97b-4689-9052-94d719b21db3</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>100k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e4e0436-e7a6-4f1f-aa20-d65c3929b5d8</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>100k</value>
+      <footprint>tda_bridge:0207_12</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}12" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f0c0d93-2180-433a-8106-34ab5f037d9a</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>33k</value>
+      <footprint>tda_bridge:0207_2V</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}2V" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>697cc859-cacb-4355-8602-2bfc124ec5a1</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>33k</value>
+      <footprint>tda_bridge:0207_2V</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}2V" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad88bd60-e948-48d6-8190-ee4acda360eb</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>220</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7e18aeb-c521-4392-b34d-3e9136eca30a</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>33k</value>
+      <footprint>tda_bridge:0207_2V</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}2V" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a69957f2-b049-4f43-8a53-5caf1ccf0287</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>33k</value>
+      <footprint>tda_bridge:0207_2V</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}2V" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ad9e2c7-487c-40d4-a244-43f2842dd1f2</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>33k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e0f4d2a-7a94-4585-ba13-1e6f8b8ab7c5</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>33k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcd7e975-17b1-4f39-b7de-0de8d96ac3f5</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>10k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bc3e18a-aed8-4031-80bb-118e63681093</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>10k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74eb796a-ab23-4690-9d60-43018cbc48c2</tstamps>
+    </comp>
+    <comp ref="R52">
+      <value>10k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cad5c84-d1e5-4c45-aec5-a0c29ad49f9f</tstamps>
+    </comp>
+    <comp ref="R53">
+      <value>10k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>234d92bb-e15c-42e3-9846-6515748db933</tstamps>
+    </comp>
+    <comp ref="R54">
+      <value>10k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8941882e-bf65-454a-87bb-038620ff44b7</tstamps>
+    </comp>
+    <comp ref="R55">
+      <value>10k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53057463-b1be-4f6f-9465-690b9d8e53e3</tstamps>
+    </comp>
+    <comp ref="R56">
+      <value>10k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2090ded1-32be-4be1-9f0e-52da72500577</tstamps>
+    </comp>
+    <comp ref="R57">
+      <value>10k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e740d7f-1ae5-445a-95bd-5e5e6e363aa9</tstamps>
+    </comp>
+    <comp ref="R58">
+      <value>50k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cae2a7fe-31dd-4688-9ac9-642debe2f4fd</tstamps>
+    </comp>
+    <comp ref="R59">
+      <value>50k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89935dda-df9a-4064-96e2-a56df04e6131</tstamps>
+    </comp>
+    <comp ref="R60">
+      <value>50k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02237624-4689-4d79-aa9b-efb13a49dca2</tstamps>
+    </comp>
+    <comp ref="R61">
+      <value>50k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35196286-1651-45ed-8cca-850613526805</tstamps>
+    </comp>
+    <comp ref="R62">
+      <value>530k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74ec7d73-c35d-4fd7-9fc1-7bbd920a472f</tstamps>
+    </comp>
+    <comp ref="R63">
+      <value>530k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86fee275-e74a-462b-9f46-7c6f8c2ce095</tstamps>
+    </comp>
+    <comp ref="R64">
+      <value>530k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd74ee94-ad6d-464f-81e6-bf80591da960</tstamps>
+    </comp>
+    <comp ref="R65">
+      <value>530k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d45f6be9-583a-433c-a451-e6609e2524db</tstamps>
+    </comp>
+    <comp ref="R66">
+      <value>2.2k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6ebeeba-f100-4266-9439-145954a17aa7</tstamps>
+    </comp>
+    <comp ref="R67">
+      <value>2.2k</value>
+      <footprint>tda_bridge:0207_12</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9bf96dc-5207-4063-86bc-076ca7ba0c2c</tstamps>
+    </comp>
+    <comp ref="R68">
+      <value>68k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a03468d6-3e9f-4761-89c5-a6f61b9e8328</tstamps>
+    </comp>
+    <comp ref="R69">
+      <value>68k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ed660ca-1cce-4654-bf6c-39df73584a5a</tstamps>
+    </comp>
+    <comp ref="R70">
+      <value>330</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3e3da0a-4307-4215-9f36-0356cc0ad2e3</tstamps>
+    </comp>
+    <comp ref="R72">
+      <value>330</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d968ade-1d38-4c56-8dd0-830878fe1ab5</tstamps>
+    </comp>
+    <comp ref="R74">
+      <value>68k</value>
+      <footprint>tda_bridge:0207_7</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="R-US_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebc6ea77-6e4b-45ca-a3ff-83b0bd751f04</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>2N2219</value>
+      <footprint>tda_bridge:TO5</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="2N2219" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c127905-096c-414f-84b0-9328d239fe58</tstamps>
+    </comp>
+    <comp ref="T2">
+      <value>2N2219</value>
+      <footprint>tda_bridge:TO5</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="2N2219" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1b7fa47-3225-4044-8024-a3d58fa3c81c</tstamps>
+    </comp>
+    <comp ref="T3">
+      <value>BC517</value>
+      <footprint>tda_bridge:TO92</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="BC517" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>832fccac-41ac-49c2-9ab8-2c2865fff12a</tstamps>
+    </comp>
+    <comp ref="TPGND1">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50275736-9a79-4577-b840-6b3a59cdf108</tstamps>
+    </comp>
+    <comp ref="TPGND2">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91ad0ffb-4e07-475b-bf06-63af4043eec3</tstamps>
+    </comp>
+    <comp ref="TRANS25VAC1A0">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26fe8f3e-241d-476e-b9e8-1c05f8f38fa2</tstamps>
+    </comp>
+    <comp ref="TRANS25VAC1B0">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf8f4321-2d9d-410c-aa7a-69ab8719d2ef</tstamps>
+    </comp>
+    <comp ref="TRANS25VAC2A0">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab5196a4-6a8e-49c4-8491-fe12b8b7897c</tstamps>
+    </comp>
+    <comp ref="TRANS25VAC2B0">
+      <value>SE13</value>
+      <footprint>tda_bridge:SE13</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="SE13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97279143-0e9a-4ea3-9eb4-2c78115c1644</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>BTOR1</value>
+      <footprint>tda_bridge:BTOR1</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="BTOR1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>115e4236-c548-4df8-848b-aa7108eb2171</tstamps>
+    </comp>
+    <comp ref="X2">
+      <value>BTOR1</value>
+      <footprint>tda_bridge:BTOR1</footprint>
+      <libsource lib="tda_bridge-eagle-import" part="BTOR1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: tda_bridge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0365085-d18b-4c2d-8ab3-ab2819e33fde</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="Transformer_1P_2S">
+      <description>Transformer, single primary, dual secondary</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">Transformer_1P_2S</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AA" type="passive"/>
+        <pin num="2" name="AB" type="passive"/>
+        <pin num="3" name="SA" type="passive"/>
+        <pin num="4" name="SB" type="passive"/>
+        <pin num="5" name="SC" type="passive"/>
+        <pin num="6" name="SD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="1N4004">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4004</field>
+        <field name="Footprint">tda_bridge:DO41-10</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="1N4148DO35-10">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148DO35-10</field>
+        <field name="Footprint">tda_bridge:DO35-10</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="1N4148DO35-7">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148DO35-7</field>
+        <field name="Footprint">tda_bridge:DO35-7</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="2N2219">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">2N2219</field>
+        <field name="Footprint">tda_bridge:TO5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="2N2907">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N2907</field>
+        <field name="Footprint">tda_bridge:TO18</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="BC517">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">BC517</field>
+        <field name="Footprint">tda_bridge:TO92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="BTOR1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">BTOR1</field>
+        <field name="Footprint">tda_bridge:BTOR1</field>
+      </fields>
+      <pins>
+        <pin num="S" name="2" type="passive"/>
+        <pin num="S@1" name="2@1" type="passive"/>
+        <pin num="S@2" name="2@2" type="passive"/>
+        <pin num="S@3" name="2@3" type="passive"/>
+        <pin num="T" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="BYW100">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BYW100</field>
+        <field name="Footprint">tda_bridge:F126-10</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="BYW29">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BYW29</field>
+        <field name="Footprint">tda_bridge:DO220S</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="BZX85">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BZX85</field>
+        <field name="Footprint">tda_bridge:DO41Z10</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="C-EU050-025X075">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-EU050-025X075</field>
+        <field name="Footprint">tda_bridge:C050-025X075</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="C-EU050-030X075">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-EU050-030X075</field>
+        <field name="Footprint">tda_bridge:C050-030X075</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="C-EU075-063X106">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-EU075-063X106</field>
+        <field name="Footprint">tda_bridge:C075-063X106</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="C22{slash}6">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C22{slash}6</field>
+        <field name="Footprint">tda_bridge:C22.5B6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="C5{slash}2.5">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C5{slash}2.5</field>
+        <field name="Footprint">tda_bridge:C5B2.5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="CPOL-USE1.8-4">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CPOL-USE1.8-4</field>
+        <field name="Footprint">tda_bridge:E1,8-4</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="CPOL-USE10-30">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CPOL-USE10-30</field>
+        <field name="Footprint">tda_bridge:EB30D</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="CPOL-USE10-35">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CPOL-USE10-35</field>
+        <field name="Footprint">tda_bridge:EB35D</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="CPOL-USE2-5">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CPOL-USE2-5</field>
+        <field name="Footprint">tda_bridge:E2-5</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="CPOL-USE5-13">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CPOL-USE5-13</field>
+        <field name="Footprint">tda_bridge:E5-13</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="CPOL-USE7.5-18">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CPOL-USE7.5-18</field>
+        <field name="Footprint">tda_bridge:E7,5-18</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="FINDER-30.22">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">FINDER-30.22</field>
+        <field name="Footprint">tda_bridge:FINDER-30.22</field>
+      </fields>
+      <pins>
+        <pin num="11" name="P" type="passive"/>
+        <pin num="12" name="O" type="passive"/>
+        <pin num="14" name="S" type="passive"/>
+        <pin num="21" name="P" type="passive"/>
+        <pin num="22" name="O" type="passive"/>
+        <pin num="24" name="S" type="passive"/>
+        <pin num="A1" name="1" type="passive"/>
+        <pin num="A2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="JP3Q">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JP3Q</field>
+        <field name="Footprint">tda_bridge:JP3Q</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="MOUNT-PAD-ROUND3.6">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MOUNT-PAD-ROUND3.6</field>
+        <field name="Footprint">tda_bridge:3,6-PAD</field>
+      </fields>
+      <pins>
+        <pin num="B3,6" name="MOUNT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="R-US_0207{slash}12">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-US_0207{slash}12</field>
+        <field name="Footprint">tda_bridge:0207_12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="R-US_0207{slash}2V">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-US_0207{slash}2V</field>
+        <field name="Footprint">tda_bridge:0207_2V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="R-US_0207{slash}7">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-US_0207{slash}7</field>
+        <field name="Footprint">tda_bridge:0207_7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="R-US_0309{slash}10">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-US_0309{slash}10</field>
+        <field name="Footprint">tda_bridge:0309_10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="R-US_0411{slash}15">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-US_0411{slash}15</field>
+        <field name="Footprint">tda_bridge:0411_15</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="R-US_0617{slash}22">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-US_0617{slash}22</field>
+        <field name="Footprint">tda_bridge:0617_22</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="R-US_VTA52">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-US_VTA52</field>
+        <field name="Footprint">tda_bridge:VTA52</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="SE13">
+      <fields>
+        <field name="Reference">LSP</field>
+        <field name="Value">SE13</field>
+        <field name="Footprint">tda_bridge:SE13</field>
+      </fields>
+      <pins>
+        <pin num="MP" name="MP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="TDA7293V">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TDA7293V</field>
+        <field name="Footprint">tda_bridge:MULTIWATT15V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STBY-GND" type="power_in"/>
+        <pin num="2" name="IN-" type="input"/>
+        <pin num="3" name="IN+" type="input"/>
+        <pin num="4" name="SGND" type="power_in"/>
+        <pin num="5" name="CLIP" type="open_collector"/>
+        <pin num="6" name="BOOSTRAP" type="passive"/>
+        <pin num="7" name="VS+" type="power_in"/>
+        <pin num="8" name="VS-" type="power_in"/>
+        <pin num="9" name="STBY" type="input"/>
+        <pin num="10" name="MUTE" type="input"/>
+        <pin num="11" name="BUFFER" type="passive"/>
+        <pin num="12" name="BOOTLOADER" type="passive"/>
+        <pin num="13" name="PWVS+" type="power_in"/>
+        <pin num="14" name="OUT" type="output"/>
+        <pin num="15" name="PWVS-" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="tda_bridge-eagle-import" part="TL084P">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TL084P</field>
+        <field name="Footprint">tda_bridge:DIL14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="-IN" type="input"/>
+        <pin num="3" name="+IN" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+IN" type="input"/>
+        <pin num="6" name="-IN" type="input"/>
+        <pin num="7" name="OUT" type="output"/>
+        <pin num="8" name="OUT" type="output"/>
+        <pin num="9" name="-IN" type="input"/>
+        <pin num="10" name="+IN" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+IN" type="input"/>
+        <pin num="13" name="-IN" type="input"/>
+        <pin num="14" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="C47" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="D13" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="D14" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="D8" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="IC3" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="K1" pin="A2" pinfunction="2" pintype="passive"/>
+      <node ref="K3" pin="A2" pinfunction="2" pintype="passive"/>
+      <node ref="R40" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R68" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R69" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R74" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="2" name="-12V">
+      <node ref="C48" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="D15" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="IC3" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="R45" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/CLIPL">
+      <node ref="IC1" pin="5" pinfunction="CLIP" pintype="open_collector"/>
+      <node ref="R27" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/CLIPR">
+      <node ref="IC2" pin="5" pinfunction="CLIP" pintype="open_collector"/>
+      <node ref="R34" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/MUTE">
+      <node ref="C20" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="D9" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="10" pinfunction="MUTE" pintype="input"/>
+      <node ref="IC2" pin="10" pinfunction="MUTE" pintype="input"/>
+      <node ref="R21" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/OUTL">
+      <node ref="IC1" pin="14" pinfunction="OUT" pintype="output"/>
+      <node ref="K1" pin="11" pinfunction="P" pintype="passive"/>
+      <node ref="K1" pin="21" pinfunction="P" pintype="passive"/>
+      <node ref="R26" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R42" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/OUTR">
+      <node ref="IC2" pin="14" pinfunction="OUT" pintype="output"/>
+      <node ref="K3" pin="11" pinfunction="P" pintype="passive"/>
+      <node ref="K3" pin="21" pinfunction="P" pintype="passive"/>
+      <node ref="R31" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R41" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/RLOUT">
+      <node ref="D13" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="JP1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="K1" pin="A1" pinfunction="1" pintype="passive"/>
+      <node ref="K3" pin="A1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/STBY">
+      <node ref="C21" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="IC1" pin="9" pinfunction="STBY" pintype="input"/>
+      <node ref="IC2" pin="9" pinfunction="STBY" pintype="input"/>
+      <node ref="R20" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="C10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C11" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C12" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C16" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C17" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C20" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C21" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C23" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C25" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C27" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C29" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C30" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C34" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C36" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C41" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C42" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C43" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C44" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C45" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C47" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C48" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C7" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C9" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="D14" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D15" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="H1" pin="B3,6" pinfunction="MOUNT" pintype="passive"/>
+      <node ref="H2" pin="B3,6" pinfunction="MOUNT" pintype="passive"/>
+      <node ref="H3" pin="B3,6" pinfunction="MOUNT" pintype="passive"/>
+      <node ref="H4" pin="B3,6" pinfunction="MOUNT" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="STBY-GND" pintype="power_in"/>
+      <node ref="IC1" pin="4" pinfunction="SGND" pintype="power_in"/>
+      <node ref="IC2" pin="1" pinfunction="STBY-GND" pintype="power_in"/>
+      <node ref="IC2" pin="4" pinfunction="SGND" pintype="power_in"/>
+      <node ref="JP1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="PLEDCLIP2" pin="MP" pinfunction="MP" pintype="passive"/>
+      <node ref="PLEDCLIP4" pin="MP" pinfunction="MP" pintype="passive"/>
+      <node ref="POUTL2" pin="MP" pinfunction="MP" pintype="passive"/>
+      <node ref="POUTR2" pin="MP" pinfunction="MP" pintype="passive"/>
+      <node ref="R18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R33" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R39" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R43" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R44" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R46" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R47" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R50" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R51" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R52" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R53" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R62" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R64" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="T1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="T2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="T3" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="TPGND1" pin="MP" pinfunction="MP" pintype="passive"/>
+      <node ref="TPGND2" pin="MP" pinfunction="MP" pintype="passive"/>
+      <node ref="TRANS25VAC1B0" pin="MP" pinfunction="MP" pintype="passive"/>
+      <node ref="TRANS25VAC2A0" pin="MP" pinfunction="MP" pintype="passive"/>
+      <node ref="X1" pin="S" pinfunction="2" pintype="passive"/>
+      <node ref="X1" pin="S@1" pinfunction="2@1" pintype="passive"/>
+      <node ref="X1" pin="S@2" pinfunction="2@2" pintype="passive"/>
+      <node ref="X1" pin="S@3" pinfunction="2@3" pintype="passive"/>
+      <node ref="X2" pin="S" pinfunction="2" pintype="passive"/>
+      <node ref="X2" pin="S@1" pinfunction="2@1" pintype="passive"/>
+      <node ref="X2" pin="S@2" pinfunction="2@2" pintype="passive"/>
+      <node ref="X2" pin="S@3" pinfunction="2@3" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D1" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="D3" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="TRANS25VAC1A0" pin="MP" pinfunction="MP" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D2" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="D4" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="TRANS25VAC2B0" pin="MP" pinfunction="MP" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="X1" pin="T" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="IN+" pintype="input"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C7-Pad+)">
+      <node ref="C7" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D5" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="VS+" pintype="power_in"/>
+    </net>
+    <net code="19" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C9" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="D6" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="VS-" pintype="power_in"/>
+    </net>
+    <net code="20" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C16" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="D5" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="13" pinfunction="PWVS+" pintype="power_in"/>
+      <node ref="R16" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(C17-Pad-)">
+      <node ref="C17" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D6" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="IC1" pin="15" pinfunction="PWVS-" pintype="power_in"/>
+      <node ref="R17" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(C19-Pad+)">
+      <node ref="C19" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="BOOSTRAP" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(C19-Pad-)">
+      <node ref="C19" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="IC1" pin="12" pinfunction="BOOTLOADER" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(C22-Pad1)">
+      <node ref="C22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R22" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="X2" pin="T" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(C22-Pad2)">
+      <node ref="C22" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R24" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="IC2" pin="3" pinfunction="IN+" pintype="input"/>
+      <node ref="R24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R25" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(C24-Pad2)">
+      <node ref="C24" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C27" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="D11" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="IC2" pin="7" pinfunction="VS+" pintype="power_in"/>
+    </net>
+    <net code="28" name="Net-(C25-Pad-)">
+      <node ref="C25" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C26" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D12" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="IC2" pin="8" pinfunction="VS-" pintype="power_in"/>
+    </net>
+    <net code="29" name="Net-(C28-Pad2)">
+      <node ref="C28" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C29" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="D11" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="IC2" pin="13" pinfunction="PWVS+" pintype="power_in"/>
+      <node ref="R35" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(C30-Pad-)">
+      <node ref="C30" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C31" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D12" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="IC2" pin="15" pinfunction="PWVS-" pintype="power_in"/>
+      <node ref="R36" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(C32-Pad+)">
+      <node ref="C32" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="IC2" pin="6" pinfunction="BOOSTRAP" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(C32-Pad-)">
+      <node ref="C32" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="IC2" pin="12" pinfunction="BOOTLOADER" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(C33-Pad+)">
+      <node ref="C33" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="IC3" pin="3" pinfunction="+IN" pintype="input"/>
+      <node ref="R41" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R43" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(C33-Pad-)">
+      <node ref="C33" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C34" pin="-" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(C35-Pad+)">
+      <node ref="C35" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="IC3" pin="5" pinfunction="+IN" pintype="input"/>
+      <node ref="R42" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R44" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(C35-Pad-)">
+      <node ref="C35" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C36" pin="-" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(C37-Pad+)">
+      <node ref="C37" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="IC3" pin="2" pinfunction="-IN" pintype="input"/>
+      <node ref="R46" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R48" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(C37-Pad-)">
+      <node ref="C37" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C39" pin="-" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(C38-Pad+)">
+      <node ref="C38" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="IC3" pin="6" pinfunction="-IN" pintype="input"/>
+      <node ref="R47" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R49" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(C38-Pad-)">
+      <node ref="C38" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C40" pin="-" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(C39-Pad+)">
+      <node ref="C39" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="D16" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D17" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="IC3" pin="1" pinfunction="OUT" pintype="output"/>
+      <node ref="R48" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(C40-Pad+)">
+      <node ref="C40" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="D18" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="D19" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="IC3" pin="7" pinfunction="OUT" pintype="output"/>
+      <node ref="R49" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(C41-Pad+)">
+      <node ref="C41" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="R54" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R58" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(C42-Pad-)">
+      <node ref="C42" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="R55" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R59" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(C43-Pad+)">
+      <node ref="C43" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="R56" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R60" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(C44-Pad-)">
+      <node ref="C44" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="R57" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R61" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(C45-Pad+)">
+      <node ref="C45" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="R68" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R69" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R70" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="T1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="T2" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D1-PadA)">
+      <node ref="D1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D2-PadA)">
+      <node ref="D2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(D3-PadC)">
+      <node ref="D3" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(D4-PadC)">
+      <node ref="D4" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D7-PadA)">
+      <node ref="D7" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R20" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D9-PadC)">
+      <node ref="D9" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R21" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D16-PadC)">
+      <node ref="D16" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="R50" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R54" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D17-PadA)">
+      <node ref="D17" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R51" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R55" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D18-PadC)">
+      <node ref="D18" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="R52" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R56" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D19-PadA)">
+      <node ref="D19" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R53" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R57" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2" pinfunction="IN-" pintype="input"/>
+      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(IC2-Pad2)">
+      <node ref="IC2" pin="2" pinfunction="IN-" pintype="input"/>
+      <node ref="R26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R28" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R31" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(IC3-Pad8)">
+      <node ref="IC3" pin="8" pinfunction="OUT" pintype="output"/>
+      <node ref="R65" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R67" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(IC3-Pad9)">
+      <node ref="IC3" pin="9" pinfunction="-IN" pintype="input"/>
+      <node ref="R61" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R65" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(IC3-Pad10)">
+      <node ref="IC3" pin="10" pinfunction="+IN" pintype="input"/>
+      <node ref="R60" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R64" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(IC3-Pad12)">
+      <node ref="IC3" pin="12" pinfunction="+IN" pintype="input"/>
+      <node ref="R58" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R62" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(IC3-Pad13)">
+      <node ref="IC3" pin="13" pinfunction="-IN" pintype="input"/>
+      <node ref="R59" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R63" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(IC3-Pad14)">
+      <node ref="IC3" pin="14" pinfunction="OUT" pintype="output"/>
+      <node ref="R63" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R66" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(JP1-Pad3)">
+      <node ref="JP1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R72" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R74" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(K1-Pad12)">
+      <node ref="K1" pin="12" pinfunction="O" pintype="passive"/>
+      <node ref="K1" pin="22" pinfunction="O" pintype="passive"/>
+      <node ref="POUTL3" pin="MP" pinfunction="MP" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(K1-Pad14)">
+      <node ref="K1" pin="14" pinfunction="S" pintype="passive"/>
+      <node ref="K1" pin="24" pinfunction="S" pintype="passive"/>
+      <node ref="POUTL1" pin="MP" pinfunction="MP" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(K3-Pad12)">
+      <node ref="K3" pin="12" pinfunction="O" pintype="passive"/>
+      <node ref="K3" pin="22" pinfunction="O" pintype="passive"/>
+      <node ref="POUTR3" pin="MP" pinfunction="MP" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(K3-Pad14)">
+      <node ref="K3" pin="14" pinfunction="S" pintype="passive"/>
+      <node ref="K3" pin="24" pinfunction="S" pintype="passive"/>
+      <node ref="POUTR1" pin="MP" pinfunction="MP" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(PLEDCLIP1-PadMP)">
+      <node ref="PLEDCLIP1" pin="MP" pinfunction="MP" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R33" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(PLEDCLIP3-PadMP)">
+      <node ref="PLEDCLIP3" pin="MP" pinfunction="MP" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R39" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R32" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R27" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R30" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R38" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R34" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R37" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(R66-Pad2)">
+      <node ref="R66" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="T1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(R67-Pad2)">
+      <node ref="R67" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="T2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(R70-Pad1)">
+      <node ref="R70" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="T3" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(R72-Pad2)">
+      <node ref="R72" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="T3" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="81" name="VCC">
+      <node ref="C11" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D7" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="P30DC0" pin="MP" pinfunction="MP" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R30" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R32" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R35" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R37" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R38" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R40" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="82" name="VDD">
+      <node ref="C12" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="M30DC0" pin="MP" pinfunction="MP" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R36" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R45" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="83" name="unconnected-(IC1-Pad11)">
+      <node ref="IC1" pin="11" pinfunction="BUFFER" pintype="passive"/>
+    </net>
+    <net code="84" name="unconnected-(IC2-Pad11)">
+      <node ref="IC2" pin="11" pinfunction="BUFFER" pintype="passive"/>
+    </net>
+    <net code="85" name="unconnected-(JP1-Pad1)">
+      <node ref="JP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="86" name="unconnected-(JP1-Pad5)">
+      <node ref="JP1" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+  </nets>
+</export>
