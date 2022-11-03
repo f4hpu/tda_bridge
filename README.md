@@ -1,4 +1,5 @@
 <h1 align="center">The tda_bridge Project</h1>
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/f4hpu/tda_bridge?include_prereleases)
 
 [![FR](./documentation/images/FR@2x.png) en Français](./documentation/README_fr.md)
 
