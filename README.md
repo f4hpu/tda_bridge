@@ -37,11 +37,11 @@ For this historical reason, the 3D view of the card is not working well as there
 | Output Power in 8 ohm | 2x70W (stereo) or 1x280W (bridged) |
 | Circuit Dimensions    | 176.5mm x 128.5 mm                 |
 
-## Building Instructions
+## Building a tda_bridge card
 
 You have two options wether you wish to build the project as is (i.e. without using KiCAD), or tweak it to fit to your needs:
 
-1. Download the [latest release](https://github.com/f4hpu/tda_bridge/releases/download/v0.0.0-alpha/fabrication.tar.gz) of this project "as is"
+1. Download the [latest release](https://github.com/f4hpu/tda_bridge/releases/download/v0.0.0-alpha/fabrication.tar.gz) of this project "as is". This archive encloses a BOM (list of components), a directory with the gerber files, and useful pdf files.
 2. or git clone this repo (or even download a zip of the directory) and install [KiCAD 6.0.9](https://www.kicad.org/) to open the project. From here, you can tweak the schematics, the routing and generate your Gerber files.
 
 Once you have the gerber files, you can build the 2-sided PCB.

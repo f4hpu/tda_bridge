@@ -1,4 +1,7 @@
-# Projet tda_bridge
+<h1 align="center">Projet tda_bridge</h1>
+
+[![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/f4hpu/tda_bridge?display_name=release&include_prereleases&style=plastic)](https://github.com/f4hpu/tda_bridge/releases)
+[![Licence CERN OHL-P v2](https://img.shields.io/badge/licence-CERN--OHL--P%20v2-brightgreen?style=plastic)](https://cern-ohl.web.cern.ch/home)
 
 [![EN](images/GB@2x.png)![US](images/US@2x.png) in English](../README.md)
 
@@ -33,11 +36,11 @@ Pour cette raison historique, la vue 3D de la carte ne fonctionne pas bien car i
 | Puissance de Sortie dans 8 ohms | 2x70W (stereo) or 1x280W (ponté)   |
 | Dimensions du Circuit           | 176.5mm x 128.5 mm                 |
 
-## Construction
+## Construction d'une carte tda_bridge
 
 Vous avez deux options : soit vous souhaitez construire le projet tel quel (c'est-à-dire sans utiliser KiCAD), soit vous souhaitez le modifier pour l'adapter à vos besoins :
 
-1. Téléchargez la [dernière release] (https://github.com/f4hpu/tda_bridge/releases/download/v0.0.0-alpha/fabrication.tar.gz) de ce projet "tel quel".
+1. Téléchargez la [dernière release] (https://github.com/f4hpu/tda_bridge/releases/download/v0.0.0-alpha/fabrication.tar.gz) de ce projet "tel quel". L'archive contient la BOM (liste de composants), un répertoire avec les fichiers gerber, et des fichiers pdf utiles.
 2. ou clonez ce dépôt git (ou même téléchargez un zip du répertoire) et installez [KiCAD 6.0.9](https://www.kicad.org/) pour ouvrir le projet. A partir de là, vous pouvez modifier les schémas, le routage et générer vos fichiers Gerber.
 
 Une fois que vous avez des fichiers gerber, vous pouvez construire le PCB double-face.
