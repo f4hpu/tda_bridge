@@ -1,6 +1,7 @@
 <h1 align="center">The tda_bridge Project</h1>
 
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/f4hpu/tda_bridge?include_prereleases)
+[![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/f4hpu/tda_bridge?display_name=release&include_prereleases&style=plastic)](https://github.com/f4hpu/tda_bridge/releases)
+[![Licence CERN OHL-P v2](https://img.shields.io/badge/licence-CERN--OHL--P%20v2-brightgreen?style=plastic)](https://cern-ohl.web.cern.ch/home)
 
 [![FR](./documentation/images/FR@2x.png) en Français](./documentation/README_fr.md)
 
